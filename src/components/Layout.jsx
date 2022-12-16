@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Dashboard from "./Dashboard";
 import ExtraSider from "./ExtraSider";
 import Sider from "./Sider";
 
@@ -12,6 +13,7 @@ const Layout = () => {
     <LayoutWrapper>
       <Sider />
       <ExtraSider />
+      <Dashboard />
     </LayoutWrapper>
   );
 };
