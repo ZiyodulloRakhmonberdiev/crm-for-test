@@ -5,7 +5,7 @@ import profileCircle from "../assets/png/profileCircle.png";
 import searchIcon from "../assets/png/searchIcon.png";
 
 const SiderWrapper = styled.div`
-  width: 219px;
+  min-width: 219px;
   background-color: #0f1d40;
   padding-top: 16px;
   height: 100%;
@@ -46,6 +46,7 @@ const MenuItem = styled.li`
   display: flex;
   align-items: center;
   gap: 8px;
+  transition: all 0.3s ease;
   &:hover {
     color: #fff;
     background-color: #2d4071;
@@ -61,6 +62,7 @@ const MenuItemDropDown = styled(MenuItem)`
   gap: 15px;
   padding: 14px 16px 14px 22px;
   color: #fff;
+  transition: all 0.3s ease;
 `;
 const Sider = () => {
   return (
