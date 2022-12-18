@@ -5,7 +5,7 @@ import profileCircle from "../assets/png/profileCircle.png";
 import searchIcon from "../assets/png/searchIcon.png";
 
 const SiderWrapper = styled.div`
-  width: 219px;
+  min-width: 219px;
   background-color: #0f1d40;
   padding-top: 16px;
   height: 100%;

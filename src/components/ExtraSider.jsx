@@ -4,6 +4,7 @@ import { Roadmap, Schedule, Tasks, Notes, Files } from "../assets/svg/SVG";
 const ExtraSiderWrapper = styled.div`
   padding: 10px 0 10px 0;
   background: #f5f8fa;
+  min-width: 154px;
 `;
 const Header = styled.h2`
   font-size: 18px;
